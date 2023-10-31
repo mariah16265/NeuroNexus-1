@@ -3,5 +3,9 @@ This repository showcases various projects developed during my internship at Neu
 TASK 1 .........
 QuizApp allows users to access questions from a public API, answer multiple-choice questions, view their scores, and compare their scores with others through a high-score leaderboard.
 
+Uploading RESULT.mp4…
+
+
+
 
 TASK 2 - E-COMMERCE WEBSITE
