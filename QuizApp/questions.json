@@ -1,0 +1,51 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "choice1": "Berlin",
+        "choice2": "London",
+        "choice3": "Madrid",
+        "choice4": "Paris",
+        "answer": 4
+    },
+    {
+        "question": "Who wrote the famous play 'Hamlet'?",
+        "choice1": "Charles Dickens",
+        "choice2": "Jane Austen",
+        "choice3": "William Shakespeare",
+        "choice4": "George Orwell",
+        "answer": 3
+    },
+    {
+        "question": "Which gas makes up the majority of Earth's atmosphere?",
+        "choice1": "Oxygen",
+        "choice2": "Carbon Dioxide",
+        "choice3": "Nitrogen",
+        "choice4": "Hydrogen",
+        "answer": 3
+    },
+    {
+        "question": "Which planet is known as the 'Red Planet'?",
+        "choice1": "Mars",
+        "choice2": "Jupiter",
+        "choice3": "Venus",
+        "choice4": "Saturn",
+        "answer": 1
+    },
+    {
+        "question": "How many continents are there on Earth?",
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "7",
+        "choice4": "8",
+        "answer": 3
+    },
+    {
+        "question": "Which element has the chemical symbol 'H'?",
+        "choice1": "Helium",
+        "choice2": "Hydrogen",
+        "choice3": "Oxygen",
+        "choice4": "Carbon",
+        "answer": 2
+    }
+
+]

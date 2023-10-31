@@ -1,0 +1,136 @@
+/* set background color to entire webpage*/
+:root {
+    background-color: #F4C2C2;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(homepagequiz1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    /* border: 1rem solid #F4C2C2; Pink border */
+}
+
+/*The * selector applies these styles to all elements on the page.*/
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding:0;
+    color:#a66a88;
+
+}
+/*This code adds a margin to the bottom of heading elements (h1, h2, h3, h4) to separate them from other content.*/
+h1,
+h2,
+h3,
+h4{
+    margin-bottom: 1rem;
+}
+/* rem is relative to root size */
+h1{
+    font-size: 6rem;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #F4C2C2, #FFD3D3);
+    color: #003366;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+h1 >span{
+    font-size:2.4rem;
+    font-weight: 500;
+}
+h2{
+    font-size:4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* Utilities */
+
+.container{
+/* sets the width to 100% of the viewport width, making it span the entire width of the screen.*/    
+    width:100vw;
+/*sets the height to 100% of the viewport height, making it span the entire height of the screen.*/    
+    height:100vh;
+/*applies a flexible (flex) display, allowing for easy alignment and layout.*/    
+    display:flex;
+/*centers the content horizontally.*/    
+    justify-content: center;
+/*centers the content vertically*/    
+    align-items: center;
+/*sets a maximum width for the container to prevent it from becoming too wide.*/    
+    max-width: 100rem;
+/* sets a maximum width for the container to prevent it from becoming too wide.    */
+    margin: 0 auto; 
+    padding:2rem;
+
+}
+
+/*This selector targets all direct children of elements with the .container class.*/
+.conatiner > *{
+    width: 100%;
+
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+/*Buttons */
+.btn{
+    font-size: 1.8rem;
+    
+    padding:1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #003366;
+/*Adds margin to the bottom of the button to create space between buttons when they are stacked vertically.*/    
+    margin-bottom: 1rem;
+/* removes any underlines or other decorations for text links within the button.*/    
+    text-decoration: none;
+    color:#003366;
+    background-color: #F5F5F5; /* Light gray background */
+    transition: background-color 0.3s;
+
+}
+
+.btn:hover{
+/*changes the cursor to a pointer hand, indicating that the button is clickable.*/    
+    cursor:pointer;
+/*adds a shadow effect to the button on hover. 
+The shadow is created with 0 offset in the X and Y directions, a blur radius of 0.4 rem, and a color with some transparency.*/    
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 51, 102, 0.5);
+/* shifts the button slightly upward by -0.1 rem to create a subtle lift effect when hovered.*/    
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    background-color: #003366; /* Darker color on hover */
+    color: white;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.btn:active {
+    background-color: white; /* White background when clicked */
+    color: #003366;
+}
