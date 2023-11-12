@@ -1,5 +1,5 @@
 # NeuroNexus
-This repository showcases various projects developed during my internship at NeuroNexus Innovations.
+This repository showcases one of the two tasks developed during my internship at NeuroNexus Innovations.
 TASK 1  - QUIZ APP.........
 It allows users to access questions from a public API, answer multiple-choice questions, view their scores, and compare their scores with others through a high-score leaderboard.
 
